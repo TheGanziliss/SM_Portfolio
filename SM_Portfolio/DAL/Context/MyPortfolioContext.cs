@@ -7,7 +7,7 @@ namespace SM_Portfolio.DAL.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=MMPC\\SQLEXPRESS;initial Catalog=MyPortfolioDb;Integrated Security=True;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=your_server_name;initial Catalog=your_database_name;Integrated Security=True;TrustServerCertificate=True");
         }
 
         public DbSet<About> Abouts { get; set; }
