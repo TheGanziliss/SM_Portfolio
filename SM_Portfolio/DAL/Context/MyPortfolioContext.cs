@@ -19,5 +19,6 @@ namespace SM_Portfolio.DAL.Context
         public DbSet<Testimonial> Testimonials { get; set; }
         public DbSet<Feature> Features { get; set; }
         public DbSet<Message> Messages { get; set; }
+        public DbSet<ToDoList> ToDoLists { get; set; }
     }
 }
